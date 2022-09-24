@@ -1,0 +1,865 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20044B42283E757C00A32F69 /* Pods_CamelPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21EF31D78E27CF95942E0BF /* Pods_CamelPro.framework */; };
+		200864A5285F3343009E7AB4 /* tarih_selectmain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200864A4285F3343009E7AB4 /* tarih_selectmain.swift */; };
+		20136D9128551A3E000F010A /* maps_page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20136D9028551A3E000F010A /* maps_page.swift */; };
+		2034D63D2845009A005C0EDF /* create_step_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2034D63C2845009A005C0EDF /* create_step_4.swift */; };
+		2034D63F28454FE1005C0EDF /* loginfirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2034D63E28454FE0005C0EDF /* loginfirst.swift */; };
+		2041F48A283F8837004E38C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2041F489283F8837004E38C6 /* GoogleService-Info.plist */; };
+		2041F48C283FA7E1004E38C6 /* sozlesme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2041F48B283FA7E1004E38C6 /* sozlesme.swift */; };
+		2041F48E283FD463004E38C6 /* basvuru.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2041F48D283FD463004E38C6 /* basvuru.swift */; };
+		2041F4902840BD5E004E38C6 /* buycoin_cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2041F48F2840BD5E004E38C6 /* buycoin_cell.swift */; };
+		205304602834285D0066A146 /* loginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2053045F2834285D0066A146 /* loginPage.swift */; };
+		20530465283438200066A146 /* sms_check.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20530464283438200066A146 /* sms_check.swift */; };
+		20530467283446060066A146 /* nakliyeci_profil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20530466283446060066A146 /* nakliyeci_profil.swift */; };
+		2056E719284CBDA5003532D1 /* nakliyeci_bekleyen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056E718284CBDA5003532D1 /* nakliyeci_bekleyen.swift */; };
+		2056E71B284CC081003532D1 /* nakliye_bekleyen_cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056E71A284CC081003532D1 /* nakliye_bekleyen_cell.swift */; };
+		2056E71D284CCAF2003532D1 /* isveren_aktifis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056E71C284CCAF2003532D1 /* isveren_aktifis.swift */; };
+		2056E71F284CD0D2003532D1 /* isveren_aktif_cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056E71E284CD0D2003532D1 /* isveren_aktif_cell.swift */; };
+		2056E721284D69A9003532D1 /* aktif_is_detay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056E720284D69A9003532D1 /* aktif_is_detay.swift */; };
+		2056E723284D6F56003532D1 /* tekliflerim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056E722284D6F56003532D1 /* tekliflerim.swift */; };
+		2056E725284D708B003532D1 /* tekliflerimviewcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056E724284D708B003532D1 /* tekliflerimviewcell.swift */; };
+		2056E729284D739A003532D1 /* tamamlanmis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056E728284D739A003532D1 /* tamamlanmis.swift */; };
+		205D0A00284BE93B00B88879 /* maps_first.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D09FF284BE93B00B88879 /* maps_first.swift */; };
+		205D0A02284BEF3C00B88879 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D0A01284BEF3C00B88879 /* APIKeys.swift */; };
+		205D0A04284C069F00B88879 /* controlpageone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D0A03284C069F00B88879 /* controlpageone.swift */; };
+		205D0A06284C0C1C00B88879 /* control_users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D0A05284C0C1C00B88879 /* control_users.swift */; };
+		205D0A08284C11F000B88879 /* control_usercell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D0A07284C11F000B88879 /* control_usercell.swift */; };
+		205D0A2A284CB0DF00B88879 /* aktif_islerimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D0A29284CB0DF00B88879 /* aktif_islerimViewController.swift */; };
+		205D0A2C284CB30D00B88879 /* ilan_basvurularim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D0A2B284CB30D00B88879 /* ilan_basvurularim.swift */; };
+		2069B9BC283B9260005657F2 /* mesajlarim_main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2069B9BB283B9260005657F2 /* mesajlarim_main.swift */; };
+		2069B9BE283B943D005657F2 /* mesajlar_main_cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2069B9BD283B943D005657F2 /* mesajlar_main_cell.swift */; };
+		2075C71528350ED60055C1C4 /* user_kayit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2075C71428350ED60055C1C4 /* user_kayit.swift */; };
+		2075C71728351C880055C1C4 /* mesaj_in_mesaj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2075C71628351C880055C1C4 /* mesaj_in_mesaj.swift */; };
+		2075C71928351D180055C1C4 /* mesajlar_in_mesaj_cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2075C71828351D180055C1C4 /* mesajlar_in_mesaj_cell.swift */; };
+		2075C71B28351E370055C1C4 /* cüzdanim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2075C71A28351E370055C1C4 /* cüzdanim.swift */; };
+		2075C71D283563CE0055C1C4 /* ilanlar_cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2075C71C283563CE0055C1C4 /* ilanlar_cell.swift */; };
+		2075C71F2837E4C00055C1C4 /* is_detail_page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2075C71E2837E4BF0055C1C4 /* is_detail_page.swift */; };
+		2075C72128380DCF0055C1C4 /* isveren_profil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2075C72028380DCF0055C1C4 /* isveren_profil.swift */; };
+		2075C723283821300055C1C4 /* create_step_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2075C7222838212F0055C1C4 /* create_step_1.swift */; };
+		2075C725283827020055C1C4 /* create_step_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2075C724283827020055C1C4 /* create_step_2.swift */; };
+		209D54C22832C68500CBF5E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209D54C12832C68500CBF5E5 /* AppDelegate.swift */; };
+		209D54C42832C68500CBF5E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209D54C32832C68500CBF5E5 /* SceneDelegate.swift */; };
+		209D54C62832C68500CBF5E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209D54C52832C68500CBF5E5 /* ViewController.swift */; };
+		209D54C92832C68500CBF5E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209D54C72832C68500CBF5E5 /* Main.storyboard */; };
+		209D54CB2832C68800CBF5E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209D54CA2832C68800CBF5E5 /* Assets.xcassets */; };
+		209D54CE2832C68800CBF5E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209D54CC2832C68800CBF5E5 /* LaunchScreen.storyboard */; };
+		20A0B4DE283E5F8400F1842F /* buy_coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A0B4DD283E5F8400F1842F /* buy_coin.swift */; };
+		20B1D4B1285B8BE00093CCCF /* nak_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B1D4B0285B8BDF0093CCCF /* nak_view.swift */; };
+		20B1D4B3285BB2AF0093CCCF /* teklif_vieww.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B1D4B2285BB2AF0093CCCF /* teklif_vieww.swift */; };
+		20BAC7B12855FE4B0079DBDF /* isveren_tamamlanan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BAC7B02855FE4B0079DBDF /* isveren_tamamlanan.swift */; };
+		20BAC7B3285601EF0079DBDF /* degerlendirme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BAC7B2285601EF0079DBDF /* degerlendirme.swift */; };
+		20BF898A285F4B26000813FC /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BF8989285F4B26000813FC /* NotificationService.swift */; };
+		20BF898E285F4B26000813FC /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 20BF8987285F4B26000813FC /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		20CBD20A28439EDD00DB76C2 /* iconlast-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 20CBD20928439EDD00DB76C2 /* iconlast-1024.png */; };
+		20CDA49E28382A800060ED4F /* create_step_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CDA49D28382A800060ED4F /* create_step_3.swift */; };
+		20CDA4A0283956390060ED4F /* arac_sec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CDA49F283956390060ED4F /* arac_sec.swift */; };
+		20CDA4A4283956B50060ED4F /* arac_sec_cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CDA4A3283956B50060ED4F /* arac_sec_cell.swift */; };
+		20CDA4A6283967020060ED4F /* arac_save_step1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CDA4A5283967010060ED4F /* arac_save_step1.swift */; };
+		20CDA4A8283967660060ED4F /* arac_save_step2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CDA4A7283967660060ED4F /* arac_save_step2.swift */; };
+		20CDA4AA28396A230060ED4F /* arac_save_step3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CDA4A928396A230060ED4F /* arac_save_step3.swift */; };
+		20D836B02840DD5400252FD5 /* teklifverenler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D836AF2840DD5400252FD5 /* teklifverenler.swift */; };
+		20D836B22840DDB200252FD5 /* teklifverenler_cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D836B12840DDB200252FD5 /* teklifverenler_cell.swift */; };
+		20FACE662855374700119B29 /* varis_select.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FACE652855374700119B29 /* varis_select.swift */; };
+		20FACE6828555AE500119B29 /* is_haritam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FACE6728555AE500119B29 /* is_haritam.swift */; };
+		20FAF7A62855C52D00AD8D77 /* bildirimpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FAF7A52855C52D00AD8D77 /* bildirimpage.swift */; };
+		20FAF7AA2855C5A000AD8D77 /* bildirimcel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FAF7A92855C5A000AD8D77 /* bildirimcel.swift */; };
+		20FAF7AC2855D8A500AD8D77 /* profilother.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FAF7AB2855D8A500AD8D77 /* profilother.swift */; };
+		20FAF7AE2855DCDB00AD8D77 /* user_yorumcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FAF7AD2855DCDB00AD8D77 /* user_yorumcell.swift */; };
+		A9A0AB366185C6BE87FDC9B4 /* Pods_CamelPro_OneSignalNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBABEECD03456660DEFC66FA /* Pods_CamelPro_OneSignalNotificationServiceExtension.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20BF898C285F4B26000813FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 209D54B62832C68500CBF5E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20BF8986285F4B26000813FC;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		20BF898F285F4B26000813FC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				20BF898E285F4B26000813FC /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		200864A4285F3343009E7AB4 /* tarih_selectmain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tarih_selectmain.swift; sourceTree = "<group>"; };
+		20136D9028551A3E000F010A /* maps_page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maps_page.swift; sourceTree = "<group>"; };
+		2034D63C2845009A005C0EDF /* create_step_4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = create_step_4.swift; sourceTree = "<group>"; };
+		2034D63E28454FE0005C0EDF /* loginfirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginfirst.swift; sourceTree = "<group>"; };
+		20356B6B283E704300A88965 /* CamelProRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CamelProRelease.entitlements; sourceTree = "<group>"; };
+		2041F489283F8837004E38C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2041F48B283FA7E1004E38C6 /* sozlesme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sozlesme.swift; sourceTree = "<group>"; };
+		2041F48D283FD463004E38C6 /* basvuru.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basvuru.swift; sourceTree = "<group>"; };
+		2041F48F2840BD5E004E38C6 /* buycoin_cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buycoin_cell.swift; sourceTree = "<group>"; };
+		2053045E2834272A0066A146 /* CamelPro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CamelPro.entitlements; sourceTree = "<group>"; };
+		2053045F2834285D0066A146 /* loginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginPage.swift; sourceTree = "<group>"; };
+		20530464283438200066A146 /* sms_check.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sms_check.swift; sourceTree = "<group>"; };
+		20530466283446060066A146 /* nakliyeci_profil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nakliyeci_profil.swift; sourceTree = "<group>"; };
+		2056E718284CBDA5003532D1 /* nakliyeci_bekleyen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nakliyeci_bekleyen.swift; sourceTree = "<group>"; };
+		2056E71A284CC081003532D1 /* nakliye_bekleyen_cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nakliye_bekleyen_cell.swift; sourceTree = "<group>"; };
+		2056E71C284CCAF2003532D1 /* isveren_aktifis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isveren_aktifis.swift; sourceTree = "<group>"; };
+		2056E71E284CD0D2003532D1 /* isveren_aktif_cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isveren_aktif_cell.swift; sourceTree = "<group>"; };
+		2056E720284D69A9003532D1 /* aktif_is_detay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aktif_is_detay.swift; sourceTree = "<group>"; };
+		2056E722284D6F56003532D1 /* tekliflerim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tekliflerim.swift; sourceTree = "<group>"; };
+		2056E724284D708B003532D1 /* tekliflerimviewcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tekliflerimviewcell.swift; sourceTree = "<group>"; };
+		2056E728284D739A003532D1 /* tamamlanmis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tamamlanmis.swift; sourceTree = "<group>"; };
+		205D09FF284BE93B00B88879 /* maps_first.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maps_first.swift; sourceTree = "<group>"; };
+		205D0A01284BEF3C00B88879 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		205D0A03284C069F00B88879 /* controlpageone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = controlpageone.swift; sourceTree = "<group>"; };
+		205D0A05284C0C1C00B88879 /* control_users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = control_users.swift; sourceTree = "<group>"; };
+		205D0A07284C11F000B88879 /* control_usercell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = control_usercell.swift; sourceTree = "<group>"; };
+		205D0A29284CB0DF00B88879 /* aktif_islerimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aktif_islerimViewController.swift; sourceTree = "<group>"; };
+		205D0A2B284CB30D00B88879 /* ilan_basvurularim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ilan_basvurularim.swift; sourceTree = "<group>"; };
+		2069B9BB283B9260005657F2 /* mesajlarim_main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mesajlarim_main.swift; sourceTree = "<group>"; };
+		2069B9BD283B943D005657F2 /* mesajlar_main_cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mesajlar_main_cell.swift; sourceTree = "<group>"; };
+		2075C71428350ED60055C1C4 /* user_kayit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user_kayit.swift; sourceTree = "<group>"; };
+		2075C71628351C880055C1C4 /* mesaj_in_mesaj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mesaj_in_mesaj.swift; sourceTree = "<group>"; };
+		2075C71828351D180055C1C4 /* mesajlar_in_mesaj_cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mesajlar_in_mesaj_cell.swift; sourceTree = "<group>"; };
+		2075C71A28351E370055C1C4 /* cüzdanim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "cüzdanim.swift"; sourceTree = "<group>"; };
+		2075C71C283563CE0055C1C4 /* ilanlar_cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ilanlar_cell.swift; sourceTree = "<group>"; };
+		2075C71E2837E4BF0055C1C4 /* is_detail_page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = is_detail_page.swift; sourceTree = "<group>"; };
+		2075C72028380DCF0055C1C4 /* isveren_profil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isveren_profil.swift; sourceTree = "<group>"; };
+		2075C7222838212F0055C1C4 /* create_step_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = create_step_1.swift; sourceTree = "<group>"; };
+		2075C724283827020055C1C4 /* create_step_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = create_step_2.swift; sourceTree = "<group>"; };
+		209D54BE2832C68500CBF5E5 /* CamelPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CamelPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		209D54C12832C68500CBF5E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		209D54C32832C68500CBF5E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		209D54C52832C68500CBF5E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		209D54C82832C68500CBF5E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		209D54CA2832C68800CBF5E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		209D54CD2832C68800CBF5E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		209D54CF2832C68800CBF5E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20A0B4DD283E5F8400F1842F /* buy_coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buy_coin.swift; sourceTree = "<group>"; };
+		20B1D4B0285B8BDF0093CCCF /* nak_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nak_view.swift; sourceTree = "<group>"; };
+		20B1D4B2285BB2AF0093CCCF /* teklif_vieww.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teklif_vieww.swift; sourceTree = "<group>"; };
+		20BAC7B02855FE4B0079DBDF /* isveren_tamamlanan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isveren_tamamlanan.swift; sourceTree = "<group>"; };
+		20BAC7B2285601EF0079DBDF /* degerlendirme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = degerlendirme.swift; sourceTree = "<group>"; };
+		20BF8987285F4B26000813FC /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		20BF8989285F4B26000813FC /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		20BF898B285F4B26000813FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20CBD20928439EDD00DB76C2 /* iconlast-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconlast-1024.png"; sourceTree = "<group>"; };
+		20CDA49D28382A800060ED4F /* create_step_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = create_step_3.swift; sourceTree = "<group>"; };
+		20CDA49F283956390060ED4F /* arac_sec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arac_sec.swift; sourceTree = "<group>"; };
+		20CDA4A3283956B50060ED4F /* arac_sec_cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arac_sec_cell.swift; sourceTree = "<group>"; };
+		20CDA4A5283967010060ED4F /* arac_save_step1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arac_save_step1.swift; sourceTree = "<group>"; };
+		20CDA4A7283967660060ED4F /* arac_save_step2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arac_save_step2.swift; sourceTree = "<group>"; };
+		20CDA4A928396A230060ED4F /* arac_save_step3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arac_save_step3.swift; sourceTree = "<group>"; };
+		20D836AF2840DD5400252FD5 /* teklifverenler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teklifverenler.swift; sourceTree = "<group>"; };
+		20D836B12840DDB200252FD5 /* teklifverenler_cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teklifverenler_cell.swift; sourceTree = "<group>"; };
+		20FACE652855374700119B29 /* varis_select.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = varis_select.swift; sourceTree = "<group>"; };
+		20FACE6728555AE500119B29 /* is_haritam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = is_haritam.swift; sourceTree = "<group>"; };
+		20FAF7A52855C52D00AD8D77 /* bildirimpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bildirimpage.swift; sourceTree = "<group>"; };
+		20FAF7A92855C5A000AD8D77 /* bildirimcel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bildirimcel.swift; sourceTree = "<group>"; };
+		20FAF7AB2855D8A500AD8D77 /* profilother.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profilother.swift; sourceTree = "<group>"; };
+		20FAF7AD2855DCDB00AD8D77 /* user_yorumcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user_yorumcell.swift; sourceTree = "<group>"; };
+		2BEC9C0DFCBFCC43A0C90369 /* Pods-CamelPro-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CamelPro-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-CamelPro-OneSignalNotificationServiceExtension/Pods-CamelPro-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		8D1DB66FAD81C123D39D7040 /* Pods-CamelPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CamelPro.release.xcconfig"; path = "Target Support Files/Pods-CamelPro/Pods-CamelPro.release.xcconfig"; sourceTree = "<group>"; };
+		A21EF31D78E27CF95942E0BF /* Pods_CamelPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CamelPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D61F3EC26A4BB9A0A1E2F8D4 /* Pods-CamelPro-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CamelPro-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-CamelPro-OneSignalNotificationServiceExtension/Pods-CamelPro-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		D7F9CBDE7BDF7FB12678B5F0 /* Pods-CamelPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CamelPro.debug.xcconfig"; path = "Target Support Files/Pods-CamelPro/Pods-CamelPro.debug.xcconfig"; sourceTree = "<group>"; };
+		EBABEECD03456660DEFC66FA /* Pods_CamelPro_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CamelPro_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		209D54BB2832C68500CBF5E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20044B42283E757C00A32F69 /* Pods_CamelPro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20BF8984285F4B26000813FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9A0AB366185C6BE87FDC9B4 /* Pods_CamelPro_OneSignalNotificationServiceExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		209D54B52832C68500CBF5E5 = {
+			isa = PBXGroup;
+			children = (
+				209D54C02832C68500CBF5E5 /* CamelPro */,
+				20BF8988285F4B26000813FC /* OneSignalNotificationServiceExtension */,
+				209D54BF2832C68500CBF5E5 /* Products */,
+				AD407EBDFF972C6DBBA266E3 /* Pods */,
+				A2B5439D51028E9E65B72FBA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		209D54BF2832C68500CBF5E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				209D54BE2832C68500CBF5E5 /* CamelPro.app */,
+				20BF8987285F4B26000813FC /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		209D54C02832C68500CBF5E5 /* CamelPro */ = {
+			isa = PBXGroup;
+			children = (
+				2041F489283F8837004E38C6 /* GoogleService-Info.plist */,
+				20356B6B283E704300A88965 /* CamelProRelease.entitlements */,
+				20CBD20928439EDD00DB76C2 /* iconlast-1024.png */,
+				2053045E2834272A0066A146 /* CamelPro.entitlements */,
+				209D54C12832C68500CBF5E5 /* AppDelegate.swift */,
+				209D54C32832C68500CBF5E5 /* SceneDelegate.swift */,
+				209D54C52832C68500CBF5E5 /* ViewController.swift */,
+				209D54C72832C68500CBF5E5 /* Main.storyboard */,
+				209D54CA2832C68800CBF5E5 /* Assets.xcassets */,
+				209D54CC2832C68800CBF5E5 /* LaunchScreen.storyboard */,
+				209D54CF2832C68800CBF5E5 /* Info.plist */,
+				2053045F2834285D0066A146 /* loginPage.swift */,
+				20530464283438200066A146 /* sms_check.swift */,
+				20530466283446060066A146 /* nakliyeci_profil.swift */,
+				2075C71428350ED60055C1C4 /* user_kayit.swift */,
+				2075C71628351C880055C1C4 /* mesaj_in_mesaj.swift */,
+				2075C71828351D180055C1C4 /* mesajlar_in_mesaj_cell.swift */,
+				2075C71A28351E370055C1C4 /* cüzdanim.swift */,
+				2075C71C283563CE0055C1C4 /* ilanlar_cell.swift */,
+				2075C71E2837E4BF0055C1C4 /* is_detail_page.swift */,
+				2075C72028380DCF0055C1C4 /* isveren_profil.swift */,
+				2075C7222838212F0055C1C4 /* create_step_1.swift */,
+				2075C724283827020055C1C4 /* create_step_2.swift */,
+				20CDA49D28382A800060ED4F /* create_step_3.swift */,
+				20CDA49F283956390060ED4F /* arac_sec.swift */,
+				20CDA4A3283956B50060ED4F /* arac_sec_cell.swift */,
+				20CDA4A5283967010060ED4F /* arac_save_step1.swift */,
+				20CDA4A7283967660060ED4F /* arac_save_step2.swift */,
+				20CDA4A928396A230060ED4F /* arac_save_step3.swift */,
+				2069B9BB283B9260005657F2 /* mesajlarim_main.swift */,
+				2069B9BD283B943D005657F2 /* mesajlar_main_cell.swift */,
+				20A0B4DD283E5F8400F1842F /* buy_coin.swift */,
+				2041F48B283FA7E1004E38C6 /* sozlesme.swift */,
+				2041F48D283FD463004E38C6 /* basvuru.swift */,
+				2041F48F2840BD5E004E38C6 /* buycoin_cell.swift */,
+				20D836AF2840DD5400252FD5 /* teklifverenler.swift */,
+				20D836B12840DDB200252FD5 /* teklifverenler_cell.swift */,
+				2034D63C2845009A005C0EDF /* create_step_4.swift */,
+				2034D63E28454FE0005C0EDF /* loginfirst.swift */,
+				205D09FF284BE93B00B88879 /* maps_first.swift */,
+				205D0A01284BEF3C00B88879 /* APIKeys.swift */,
+				205D0A03284C069F00B88879 /* controlpageone.swift */,
+				205D0A05284C0C1C00B88879 /* control_users.swift */,
+				205D0A07284C11F000B88879 /* control_usercell.swift */,
+				205D0A29284CB0DF00B88879 /* aktif_islerimViewController.swift */,
+				205D0A2B284CB30D00B88879 /* ilan_basvurularim.swift */,
+				2056E718284CBDA5003532D1 /* nakliyeci_bekleyen.swift */,
+				2056E71A284CC081003532D1 /* nakliye_bekleyen_cell.swift */,
+				2056E71C284CCAF2003532D1 /* isveren_aktifis.swift */,
+				2056E71E284CD0D2003532D1 /* isveren_aktif_cell.swift */,
+				2056E720284D69A9003532D1 /* aktif_is_detay.swift */,
+				2056E722284D6F56003532D1 /* tekliflerim.swift */,
+				2056E724284D708B003532D1 /* tekliflerimviewcell.swift */,
+				2056E728284D739A003532D1 /* tamamlanmis.swift */,
+				20136D9028551A3E000F010A /* maps_page.swift */,
+				20FACE652855374700119B29 /* varis_select.swift */,
+				20FACE6728555AE500119B29 /* is_haritam.swift */,
+				20FAF7A52855C52D00AD8D77 /* bildirimpage.swift */,
+				20FAF7A92855C5A000AD8D77 /* bildirimcel.swift */,
+				20FAF7AB2855D8A500AD8D77 /* profilother.swift */,
+				20FAF7AD2855DCDB00AD8D77 /* user_yorumcell.swift */,
+				20BAC7B02855FE4B0079DBDF /* isveren_tamamlanan.swift */,
+				20BAC7B2285601EF0079DBDF /* degerlendirme.swift */,
+				20B1D4B0285B8BDF0093CCCF /* nak_view.swift */,
+				20B1D4B2285BB2AF0093CCCF /* teklif_vieww.swift */,
+				200864A4285F3343009E7AB4 /* tarih_selectmain.swift */,
+			);
+			path = CamelPro;
+			sourceTree = "<group>";
+		};
+		20BF8988285F4B26000813FC /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				20BF8989285F4B26000813FC /* NotificationService.swift */,
+				20BF898B285F4B26000813FC /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		A2B5439D51028E9E65B72FBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A21EF31D78E27CF95942E0BF /* Pods_CamelPro.framework */,
+				EBABEECD03456660DEFC66FA /* Pods_CamelPro_OneSignalNotificationServiceExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD407EBDFF972C6DBBA266E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7F9CBDE7BDF7FB12678B5F0 /* Pods-CamelPro.debug.xcconfig */,
+				8D1DB66FAD81C123D39D7040 /* Pods-CamelPro.release.xcconfig */,
+				2BEC9C0DFCBFCC43A0C90369 /* Pods-CamelPro-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				D61F3EC26A4BB9A0A1E2F8D4 /* Pods-CamelPro-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		209D54BD2832C68500CBF5E5 /* CamelPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 209D54D22832C68800CBF5E5 /* Build configuration list for PBXNativeTarget "CamelPro" */;
+			buildPhases = (
+				6F38F6C279EE2EEA5E835B4C /* [CP] Check Pods Manifest.lock */,
+				209D54BA2832C68500CBF5E5 /* Sources */,
+				209D54BB2832C68500CBF5E5 /* Frameworks */,
+				209D54BC2832C68500CBF5E5 /* Resources */,
+				B2F02F3A8E9085699E9A02D0 /* [CP] Embed Pods Frameworks */,
+				20BF898F285F4B26000813FC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20BF898D285F4B26000813FC /* PBXTargetDependency */,
+			);
+			name = CamelPro;
+			productName = CamelPro;
+			productReference = 209D54BE2832C68500CBF5E5 /* CamelPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20BF8986285F4B26000813FC /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20BF8992285F4B26000813FC /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				EB72C4E814E0EBEBF23038D1 /* [CP] Check Pods Manifest.lock */,
+				20BF8983285F4B26000813FC /* Sources */,
+				20BF8984285F4B26000813FC /* Frameworks */,
+				20BF8985285F4B26000813FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 20BF8987285F4B26000813FC /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		209D54B62832C68500CBF5E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					209D54BD2832C68500CBF5E5 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					20BF8986285F4B26000813FC = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 209D54B92832C68500CBF5E5 /* Build configuration list for PBXProject "CamelPro" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 209D54B52832C68500CBF5E5;
+			productRefGroup = 209D54BF2832C68500CBF5E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				209D54BD2832C68500CBF5E5 /* CamelPro */,
+				20BF8986285F4B26000813FC /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		209D54BC2832C68500CBF5E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20CBD20A28439EDD00DB76C2 /* iconlast-1024.png in Resources */,
+				2041F48A283F8837004E38C6 /* GoogleService-Info.plist in Resources */,
+				209D54CE2832C68800CBF5E5 /* LaunchScreen.storyboard in Resources */,
+				209D54CB2832C68800CBF5E5 /* Assets.xcassets in Resources */,
+				209D54C92832C68500CBF5E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20BF8985285F4B26000813FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F38F6C279EE2EEA5E835B4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CamelPro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2F02F3A8E9085699E9A02D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CamelPro/Pods-CamelPro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CamelPro/Pods-CamelPro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CamelPro/Pods-CamelPro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB72C4E814E0EBEBF23038D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CamelPro-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		209D54BA2832C68500CBF5E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				205D0A02284BEF3C00B88879 /* APIKeys.swift in Sources */,
+				2041F4902840BD5E004E38C6 /* buycoin_cell.swift in Sources */,
+				20FACE6828555AE500119B29 /* is_haritam.swift in Sources */,
+				20FAF7AE2855DCDB00AD8D77 /* user_yorumcell.swift in Sources */,
+				20BAC7B3285601EF0079DBDF /* degerlendirme.swift in Sources */,
+				2056E729284D739A003532D1 /* tamamlanmis.swift in Sources */,
+				2069B9BE283B943D005657F2 /* mesajlar_main_cell.swift in Sources */,
+				205D0A04284C069F00B88879 /* controlpageone.swift in Sources */,
+				2075C72128380DCF0055C1C4 /* isveren_profil.swift in Sources */,
+				205D0A00284BE93B00B88879 /* maps_first.swift in Sources */,
+				205304602834285D0066A146 /* loginPage.swift in Sources */,
+				200864A5285F3343009E7AB4 /* tarih_selectmain.swift in Sources */,
+				20CDA4A4283956B50060ED4F /* arac_sec_cell.swift in Sources */,
+				20136D9128551A3E000F010A /* maps_page.swift in Sources */,
+				2056E71B284CC081003532D1 /* nakliye_bekleyen_cell.swift in Sources */,
+				2075C71D283563CE0055C1C4 /* ilanlar_cell.swift in Sources */,
+				2056E721284D69A9003532D1 /* aktif_is_detay.swift in Sources */,
+				20CDA4A0283956390060ED4F /* arac_sec.swift in Sources */,
+				205D0A2C284CB30D00B88879 /* ilan_basvurularim.swift in Sources */,
+				2056E725284D708B003532D1 /* tekliflerimviewcell.swift in Sources */,
+				20FAF7AA2855C5A000AD8D77 /* bildirimcel.swift in Sources */,
+				20530467283446060066A146 /* nakliyeci_profil.swift in Sources */,
+				2041F48C283FA7E1004E38C6 /* sozlesme.swift in Sources */,
+				20D836B02840DD5400252FD5 /* teklifverenler.swift in Sources */,
+				20CDA4A6283967020060ED4F /* arac_save_step1.swift in Sources */,
+				20CDA4AA28396A230060ED4F /* arac_save_step3.swift in Sources */,
+				205D0A06284C0C1C00B88879 /* control_users.swift in Sources */,
+				2075C71928351D180055C1C4 /* mesajlar_in_mesaj_cell.swift in Sources */,
+				20B1D4B3285BB2AF0093CCCF /* teklif_vieww.swift in Sources */,
+				209D54C62832C68500CBF5E5 /* ViewController.swift in Sources */,
+				2075C71F2837E4C00055C1C4 /* is_detail_page.swift in Sources */,
+				20CDA4A8283967660060ED4F /* arac_save_step2.swift in Sources */,
+				2075C71528350ED60055C1C4 /* user_kayit.swift in Sources */,
+				2069B9BC283B9260005657F2 /* mesajlarim_main.swift in Sources */,
+				20D836B22840DDB200252FD5 /* teklifverenler_cell.swift in Sources */,
+				2075C71728351C880055C1C4 /* mesaj_in_mesaj.swift in Sources */,
+				2034D63D2845009A005C0EDF /* create_step_4.swift in Sources */,
+				2075C725283827020055C1C4 /* create_step_2.swift in Sources */,
+				20FAF7AC2855D8A500AD8D77 /* profilother.swift in Sources */,
+				2041F48E283FD463004E38C6 /* basvuru.swift in Sources */,
+				20FACE662855374700119B29 /* varis_select.swift in Sources */,
+				2056E719284CBDA5003532D1 /* nakliyeci_bekleyen.swift in Sources */,
+				2056E71D284CCAF2003532D1 /* isveren_aktifis.swift in Sources */,
+				2056E723284D6F56003532D1 /* tekliflerim.swift in Sources */,
+				20A0B4DE283E5F8400F1842F /* buy_coin.swift in Sources */,
+				2075C723283821300055C1C4 /* create_step_1.swift in Sources */,
+				209D54C22832C68500CBF5E5 /* AppDelegate.swift in Sources */,
+				20BAC7B12855FE4B0079DBDF /* isveren_tamamlanan.swift in Sources */,
+				209D54C42832C68500CBF5E5 /* SceneDelegate.swift in Sources */,
+				205D0A2A284CB0DF00B88879 /* aktif_islerimViewController.swift in Sources */,
+				2034D63F28454FE1005C0EDF /* loginfirst.swift in Sources */,
+				205D0A08284C11F000B88879 /* control_usercell.swift in Sources */,
+				2056E71F284CD0D2003532D1 /* isveren_aktif_cell.swift in Sources */,
+				20FAF7A62855C52D00AD8D77 /* bildirimpage.swift in Sources */,
+				20530465283438200066A146 /* sms_check.swift in Sources */,
+				20B1D4B1285B8BE00093CCCF /* nak_view.swift in Sources */,
+				2075C71B28351E370055C1C4 /* cüzdanim.swift in Sources */,
+				20CDA49E28382A800060ED4F /* create_step_3.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20BF8983285F4B26000813FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20BF898A285F4B26000813FC /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20BF898D285F4B26000813FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20BF8986285F4B26000813FC /* OneSignalNotificationServiceExtension */;
+			targetProxy = 20BF898C285F4B26000813FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		209D54C72832C68500CBF5E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				209D54C82832C68500CBF5E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		209D54CC2832C68800CBF5E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				209D54CD2832C68800CBF5E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		209D54D02832C68800CBF5E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		209D54D12832C68800CBF5E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		209D54D32832C68800CBF5E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7F9CBDE7BDF7FB12678B5F0 /* Pods-CamelPro.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = CamelPro/CamelPro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8KZA865DJ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CamelPro/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Kamera kullanım izni";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Paketin konumunu belirleme";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatiher.camelpro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		209D54D42832C68800CBF5E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D1DB66FAD81C123D39D7040 /* Pods-CamelPro.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = CamelPro/CamelProRelease.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8KZA865DJ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CamelPro/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Kamera kullanım izni";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Paketin konumunu belirleme";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatiher.camelpro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		20BF8990285F4B26000813FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BEC9C0DFCBFCC43A0C90369 /* Pods-CamelPro-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8KZA865DJ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatiher.camelpro.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20BF8991285F4B26000813FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D61F3EC26A4BB9A0A1E2F8D4 /* Pods-CamelPro-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8KZA865DJ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatiher.camelpro.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		209D54B92832C68500CBF5E5 /* Build configuration list for PBXProject "CamelPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209D54D02832C68800CBF5E5 /* Debug */,
+				209D54D12832C68800CBF5E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		209D54D22832C68800CBF5E5 /* Build configuration list for PBXNativeTarget "CamelPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209D54D32832C68800CBF5E5 /* Debug */,
+				209D54D42832C68800CBF5E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20BF8992285F4B26000813FC /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20BF8990285F4B26000813FC /* Debug */,
+				20BF8991285F4B26000813FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 209D54B62832C68500CBF5E5 /* Project object */;
+}
