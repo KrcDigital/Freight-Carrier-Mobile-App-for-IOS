@@ -24,7 +24,7 @@ class sozlesme: UIViewController , WKUIDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let myURL = URL(string:"https://firebasestorage.googleapis.com/v0/b/camelpro-6cbbc.appspot.com/o/sozlesme.pdf?alt=media&token=6b493d19-2be0-46e0-880b-440c4dddc244")
+        let myURL = URL(string:"")
                let myRequest = URLRequest(url: myURL!)
                webView.load(myRequest)
         // Do any additional setup after loading the view.
